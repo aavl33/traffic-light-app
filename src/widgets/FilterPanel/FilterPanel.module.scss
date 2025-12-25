@@ -1,0 +1,44 @@
+@import '@/app/styles/variables';
+
+.panel {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: $text-primary;
+  font-weight: 600;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.filterInput {
+  .MuiOutlinedInput-root {
+    border-radius: $border-radius;
+  }
+}
+
+.checkboxGroup {
+  display: flex;
+  gap: 20px;
+  padding: 8px 0;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.sortButton {
+  flex: 1;
+}
+
+.resetButton {
+  color: $text-secondary;
+  text-transform: none;
+}

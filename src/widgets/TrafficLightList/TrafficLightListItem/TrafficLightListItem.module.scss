@@ -1,0 +1,22 @@
+@import '@/app/styles/variables';
+
+.item {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 12px;
+  border: 1px solid $border-color;
+
+  &:hover {
+    border-color: $primary-color;
+    box-shadow: $box-shadow;
+  }
+
+  &.selected {
+    border-color: $primary-color;
+    border-width: 2px;
+  }
+}
+
+.address {
+  min-height: 40px;
+}

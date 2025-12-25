@@ -1,0 +1,82 @@
+@import 'variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $text-primary;
+  background-color: $background-default;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: $border-radius;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: $border-radius;
+
+  &:hover {
+    background: #a8a8a8;
+  }
+}
+
+.leaflet-container {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.MuiPaper-root {
+  border-radius: $border-radius !important;
+}
+
+.MuiButton-root {
+  border-radius: $border-radius !important;
+  text-transform: none !important;
+}
+
+.MuiTextField-root {
+  .MuiOutlinedInput-root {
+    border-radius: $border-radius !important;
+  }
+}
+
+.MuiCard-root {
+  border-radius: $border-radius !important;
+}
