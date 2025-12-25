@@ -5,7 +5,7 @@ const initialState: TrafficLightState = {
   filters: {
     searchByName: '',
     searchByAddress: '',
-    activeFilter: false,
+    activeFilter: true,
     inactiveFilter: false,
   },
   sortOrder: 'asc',
